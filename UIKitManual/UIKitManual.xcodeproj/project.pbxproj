@@ -15,6 +15,11 @@
 		7757554828C2347900A3C4F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7757554728C2347900A3C4F5 /* Assets.xcassets */; };
 		7757554B28C2347900A3C4F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7757554928C2347900A3C4F5 /* LaunchScreen.storyboard */; };
 		77AEB73628C6185F00EA3774 /* SourceHTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEB73528C6185F00EA3774 /* SourceHTML.swift */; };
+		77AEB73828C61EDC00EA3774 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEB73728C61EDC00EA3774 /* FirstViewController.swift */; };
+		77AEB73C28C7800B00EA3774 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEB73B28C7800B00EA3774 /* Validator.swift */; };
+		77AEB73E28C788DB00EA3774 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEB73D28C788DB00EA3774 /* SettingsViewController.swift */; };
+		77AEB74028C8C48700EA3774 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEB73F28C8C48700EA3774 /* ScrollViewController.swift */; };
+		77AEB74228C8C7D100EA3774 /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEB74128C8C7D100EA3774 /* PageControlViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		7757554A28C2347900A3C4F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7757554C28C2347900A3C4F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77AEB73528C6185F00EA3774 /* SourceHTML.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceHTML.swift; sourceTree = "<group>"; };
+		77AEB73728C61EDC00EA3774 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		77AEB73B28C7800B00EA3774 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		77AEB73D28C788DB00EA3774 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		77AEB73F28C8C48700EA3774 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		77AEB74128C8C7D100EA3774 /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,10 @@
 		773093CC28C60B75008CF644 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				77AEB73728C61EDC00EA3774 /* FirstViewController.swift */,
+				77AEB73D28C788DB00EA3774 /* SettingsViewController.swift */,
+				77AEB73F28C8C48700EA3774 /* ScrollViewController.swift */,
+				77AEB74128C8C7D100EA3774 /* PageControlViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -68,6 +82,7 @@
 		773093CD28C60B80008CF644 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				77AEB73B28C7800B00EA3774 /* Validator.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -288,11 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AEB73828C61EDC00EA3774 /* FirstViewController.swift in Sources */,
 				7757554328C2347900A3C4F5 /* ViewController.swift in Sources */,
 				773093DD28C615C0008CF644 /* TabBarController.swift in Sources */,
 				7757553F28C2347900A3C4F5 /* AppDelegate.swift in Sources */,
+				77AEB74028C8C48700EA3774 /* ScrollViewController.swift in Sources */,
+				77AEB73C28C7800B00EA3774 /* Validator.swift in Sources */,
 				7757554128C2347900A3C4F5 /* SceneDelegate.swift in Sources */,
+				77AEB74228C8C7D100EA3774 /* PageControlViewController.swift in Sources */,
 				77AEB73628C6185F00EA3774 /* SourceHTML.swift in Sources */,
+				77AEB73E28C788DB00EA3774 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
