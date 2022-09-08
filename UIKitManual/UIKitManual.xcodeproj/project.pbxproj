@@ -20,6 +20,10 @@
 		77AEB73E28C788DB00EA3774 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEB73D28C788DB00EA3774 /* SettingsViewController.swift */; };
 		77AEB74028C8C48700EA3774 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEB73F28C8C48700EA3774 /* ScrollViewController.swift */; };
 		77AEB74228C8C7D100EA3774 /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEB74128C8C7D100EA3774 /* PageControlViewController.swift */; };
+		77AEB74428CA0A2A00EA3774 /* ModelTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEB74328CA0A2A00EA3774 /* ModelTable.swift */; };
+		77AEB74628CA0ACD00EA3774 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEB74528CA0ACD00EA3774 /* MainTableViewController.swift */; };
+		77AEB74828CA216500EA3774 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEB74728CA216500EA3774 /* ContactCell.swift */; };
+		77AEB74A28CA26B600EA3774 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEB74928CA26B600EA3774 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		77AEB73D28C788DB00EA3774 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		77AEB73F28C8C48700EA3774 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 		77AEB74128C8C7D100EA3774 /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
+		77AEB74328CA0A2A00EA3774 /* ModelTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTable.swift; sourceTree = "<group>"; };
+		77AEB74528CA0ACD00EA3774 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		77AEB74728CA216500EA3774 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		77AEB74928CA26B600EA3774 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,7 @@
 		773093CF28C60B9D008CF644 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				77AEB74328CA0A2A00EA3774 /* ModelTable.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -107,6 +116,7 @@
 		773093D028C60BA1008CF644 /* VIew */ = {
 			isa = PBXGroup;
 			children = (
+				77AEB74728CA216500EA3774 /* ContactCell.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -114,6 +124,8 @@
 		773093D128C60BA5008CF644 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				77AEB74528CA0ACD00EA3774 /* MainTableViewController.swift */,
+				77AEB74928CA26B600EA3774 /* TableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -304,9 +316,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				77AEB73828C61EDC00EA3774 /* FirstViewController.swift in Sources */,
+				77AEB74A28CA26B600EA3774 /* TableViewController.swift in Sources */,
 				7757554328C2347900A3C4F5 /* ViewController.swift in Sources */,
 				773093DD28C615C0008CF644 /* TabBarController.swift in Sources */,
+				77AEB74828CA216500EA3774 /* ContactCell.swift in Sources */,
 				7757553F28C2347900A3C4F5 /* AppDelegate.swift in Sources */,
+				77AEB74628CA0ACD00EA3774 /* MainTableViewController.swift in Sources */,
+				77AEB74428CA0A2A00EA3774 /* ModelTable.swift in Sources */,
 				77AEB74028C8C48700EA3774 /* ScrollViewController.swift in Sources */,
 				77AEB73C28C7800B00EA3774 /* Validator.swift in Sources */,
 				7757554128C2347900A3C4F5 /* SceneDelegate.swift in Sources */,
